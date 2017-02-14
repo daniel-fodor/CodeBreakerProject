@@ -19,7 +19,7 @@ function setHiddenFields() {
 }
 
 function setMessage($param) {
-  document.getElementById("message").innerHTML($param)
+  document.getElementById("message").innerHTML = $param;
 }
 
 function validateInput($param) {
